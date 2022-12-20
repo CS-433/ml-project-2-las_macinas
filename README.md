@@ -8,14 +8,6 @@ The structure of the image dataset and their groundtruth can be seen in the foll
 
 
 ## Tutorial
-To be able to run the full project and train the different models the following packages need to be installed in the environement :
-
-- Pytorch - 1.10 or above
-- numpy - 1.21.5
-- imgaug - 0.4.0
-- scikit-image - 0.19.0
-- scikit-learn - 1.0.1  
-- Pandas - 1.3.5
 
 To run with our weights saved and our testing dataset cleaned and augmented: 
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
@@ -37,6 +29,7 @@ To train and run the model:
 ├── src                     # Source files
 │    └── helpers            # Helpers for the implementation of the code  
 │    └── models             # Savestate of the best models  
+├── run                     # Run the model : training and testing
 └── README.md  
 </pre>
 
