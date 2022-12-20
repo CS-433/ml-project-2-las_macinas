@@ -4,7 +4,7 @@ For the EPFL course Machine Learning CS-433 a research project on semantic segme
 
 The structure of the image dataset and their groundtruth can be seen in the following image:
 
-![Alt text](/Example.png?raw=true "Dataset image / Corresponding Groundtruth")
+![Alt text](/data-label.png?raw=true "Data-Groundtruth")
 
 
 ## Tutorial
