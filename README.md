@@ -1,4 +1,4 @@
-# Machine Learning Project 2 -LAS MACINAS- Road Segmentation 
+# Machine Learning Project 2 - Road Segmentation 
 
 For the EPFL course Machine Learning CS-433 a research project on semantic segmentation of aerial images. The goal is to be able to separate two classes, Background and Road from satellite images.
 
@@ -77,11 +77,11 @@ With the optimal model, one of the Unet versions the following results are obtai
 The prediction on an image is :
 
 ![Alt text](/results.png?raw=true "Dataset image / Corresponding Groundtruth")
-## Authors
+## Authors - LAS MACINAS
 
-- Constance Gontier [@shadinaguib](https://github.com/shadinaguib)
-- Gianna Crovetto Alvarez [@leoalz](https://github.com/leoalz)
-- Hendrik  [@borjarc](https://github.com/borjarc)
+- Constance Gontier [@consti](https://github.com/consti)
+- Gianna Crovetto [@crovetto](https://github.com/crovetto)
+- Hendrik  [@hendrik](https://github.com/hendrik)
 
 
 
