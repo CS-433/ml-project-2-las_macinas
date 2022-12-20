@@ -1,5 +1,5 @@
 # Machine Learning Project 2 - Road Segmentation
-# LAS MACINAS 
+## LAS MACINAS 
 
 For the EPFL course Machine Learning CS-433 a research project on semantic segmentation of aerial images. The goal is to be able to separate two classes, Background and Road from satellite images.
 
