@@ -4,24 +4,16 @@ For the EPFL course Machine Learning CS-433 a research project on semantic segme
 
 The structure of the image dataset and their groundtruth can be seen in the following image:
 
-![Alt text](/data-label.png?raw=true "Data-Groundtruth")
+![Alt text](/data-label.png?raw=true "Data-Label")
 
 
 ## Tutorial
-To be able to run the full project and train the different models the following packages need to be installed in the environement :
-
-- Pytorch - 1.10 or above
-- numpy - 1.21.5
-- imgaug - 0.4.0
-- scikit-image - 0.19.0
-- scikit-learn - 1.0.1  
-- Pandas - 1.3.5
 
 To run with our weights saved and our testing dataset cleaned and augmented: 
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
 2. Just launch "run.py"
 
-To train and run the model: 
+To train and run the model to have predictions: 
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
 2. Create a file named models and another submission 
 3. In "constants.py", set the TRAINING_MODE to True and TESTING_MODE to True 
@@ -37,6 +29,7 @@ To train and run the model:
 ├── src                     # Source files
 │    └── helpers            # Helpers for the implementation of the code  
 │    └── models             # Savestate of the best models  
+├── run                     # Run the model : training and testing
 └── README.md  
 </pre>
 
@@ -81,4 +74,4 @@ The prediction on an image is :
 
 - Constance Gontier [@consti](https://github.com/consti)
 - Gianna Crovetto [@crovetto](https://github.com/crovetto)
-- Hendrik Hilsber [@hhilsber](https://github.com/hhilsber)
+- Hendrik Hilsberg [@hhilsber](https://github.com/hhilsber)
