@@ -74,4 +74,4 @@ The prediction on an image is :
 
 - Constance Gontier [@consti](https://github.com/consti)
 - Gianna Crovetto [@crovetto](https://github.com/crovetto)
-- Hendrik Hilsber [@hhilsber](https://github.com/hhilsber)
+- Hendrik Hilsberg [@hhilsber](https://github.com/hhilsber)
