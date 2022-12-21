@@ -4,7 +4,7 @@ For the EPFL course Machine Learning CS-433 a research project on semantic segme
 
 The structure of the image dataset and their groundtruth can be seen in the following image:
 
-![Alt text](/data-label.png?raw=true "Data-Label" style="width: 500px;")
+![Alt text](/data-label.png?raw=true "Data-Label")
 
 
 ## Tutorial
@@ -13,7 +13,7 @@ To run with our weights saved and our testing dataset cleaned and augmented:
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
 2. Just launch "run.py"
 
-To train and run the model: 
+To train and run the model to have predictions: 
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
 2. Create a file named models and another submission 
 3. In "constants.py", set the TRAINING_MODE to True and TESTING_MODE to True 
