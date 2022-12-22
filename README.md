@@ -1,6 +1,6 @@
 # Machine Learning Project 2 - Road Segmentation 
 
-For the EPFL course Machine Learning CS-433 a research project on semantic segmentation of aerial images. The goal is to be able to separate two classes, Background and Road from satellite images.
+For the EPFL course Machine Learning CS-433, we developed a binary classifier to identify roads in satellite images and distinguish them from the background. We compared various CNN and U-Net architectures to determine the best model for this task. Our approach also included image pre-processing steps to improve the accuracy of the classifier. Our results showed that the U-Net model achieved an F-1 score of 0.94. This project demonstrates the effectiveness of using U-Net model for road segmentation in satellite imagery.
 
 The structure of the image dataset and their groundtruth can be seen in the following image:
 
