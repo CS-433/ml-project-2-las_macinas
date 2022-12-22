@@ -74,7 +74,6 @@ def augment_data(images, labels):
     label_edge = labels[i]
 
     # 4) More augmentation for images with a lot of road: color transformation
-    """
     if np.mean(images[i]) > 0.28:
       angles_2 = [120, 150, 210]
       angle_2 = random.choice(angles_2)
@@ -100,7 +99,6 @@ def augment_data(images, labels):
       augmented_labels.append(label_rotate_2)
       augmented_images.append(image_flip_2)
       augmented_labels.append(label_flip_2)
-    """
 
     augmented_images.append(image_hsv)
     augmented_labels.append(label_hsv)

@@ -3,8 +3,8 @@ DATA_DIR = "../data/training/"
 TRAIN_DATA_FILENAME = DATA_DIR + "images/"
 TRAIN_LABELS_FILENAME = DATA_DIR + "groundtruth/"
 TEST_DATA_FILENAME = '../data/test_set_images/'
-BEST_MODEL_FILENAME = 'models/best_model_c32_p03.pth'
-SUBMISSION_FILENAME = 'submissions/submission_best_model_c32_p03.csv'
+BEST_MODEL_FILENAME = 'models/best_model.pth'
+SUBMISSION_FILENAME = 'submissions/submission_best_model.csv'
 
 # Mode desired
 TRAINING_MODE = False
