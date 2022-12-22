@@ -69,7 +69,7 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 The prediction on an image is :
 
-![Alt text](/prediction.png?raw=true "Image and Predcition")
+![Alt text](/prediction.jpeg?raw=true "Image and Predcition")
 ## Authors - LAS MACINAS
 
 - Constance Gontier [@constig](https://github.com/constig)
