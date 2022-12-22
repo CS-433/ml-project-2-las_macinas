@@ -1,6 +1,6 @@
 # Machine Learning Project 2 - Road Segmentation 
 
-For the EPFL course Machine Learning CS-433, we developed a binary classifier to identify roads in satellite images and distinguish them from the background. We compared various CNN and U-Net architectures to determine the best model for this task. Our approach also included image pre-processing steps to improve the accuracy of the classifier. Our results showed that the U-Net model achieved an F-1 score of 0.94. This project demonstrates the effectiveness of using U-Net model for road segmentation in satellite imagery.
+For the EPFL course Machine Learning CS-433, we developed a binary classifier to identify roads in satellite images and distinguish them from the background. We compared various CNN and U-Net architectures to determine the best model for this task. Our approach also included image pre-processing steps to improve the accuracy of the classifier. Our results showed that the U-Net model achieved an F-1 score of 0.903. This project demonstrates the effectiveness of using U-Net model for road segmentation in satellite imagery.
 
 The structure of the image dataset and their groundtruth can be seen in the following image:
 
@@ -65,7 +65,7 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
-| U-Net     |        0.94         |         -----         |     0.899     |     0.945     |
+| U-Net     |        0.945        |         -----         |     0.903     |     0.948     |
 
 The prediction on an image is :
 
