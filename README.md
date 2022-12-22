@@ -28,8 +28,8 @@ To train and run the model to have predictions:
 ├── report                  # Report of the project  
 ├── src                     # Source files
 │    └── submissions        # Folder containing the prediction
-│    └── models             # Savestate of the best models  
-├── run                     # Run the model : training and testing
+│    └── models             # Savestate of the best models    
+│    └── run.py             # Run the model : training and testing
 └── README.md  
 </pre>
 
