@@ -76,6 +76,6 @@ The prediction on an image is :
 ![Alt text](/prediction.png?raw=true "Image and Predcition")
 ## Authors - LAS MACINAS
 
-- Constance Gontier [@consti_g](https://github.com/consti_g)
+- Constance Gontier [@consti](https://github.com/consti)
 - Gianna Crovetto [@crovetto](https://github.com/crovetto)
 - Hendrik Hilsberg [@hhilsber](https://github.com/hhilsber)
