@@ -15,16 +15,20 @@ To run with our weights saved and our testing dataset cleaned and augmented:
 
 To train and run the model to have predictions: 
 1. Download train an test sets [link](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/dataset_files) and put them in the data file
-2. Create a file named models and another submission 
+2. Create a folder named models and another folder submission 
 3. In "constants.py", set the TRAINING_MODE to True and TESTING_MODE to True 
 4. Launch "run.py" 
-7. The desired output will be in /submission/submission.csv
+7. The desired predictions will be in /submission/submission.csv
 
 ## Structure
 
 <pre>
 .  
-├── data                    # Dataset for training/ testing the model  
+├── data                    # Dataset for training/ testing the model 
+├── models
+│    └── best_models 
+├── submission
+│    └── submission 
 ├── report                  # Report of the project  
 ├── src                     # Source files
 │    └── helpers            # Helpers for the implementation of the code  
@@ -57,7 +61,7 @@ In order to run the best model that was implemented the following command has to
 ```
 python run.py
 ```
-This has to be done in the 'src' folder with the data organised as mentioned above.
+This has to be done with the data organised as mentioned above.
 
 ## Results
 With the optimal model, one of the Unet versions the following results are obtained:
@@ -65,13 +69,13 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
-| Unet      |        -----        |         0.963         |     0.903     |     0.947     |
+| Unet      |        0.94         |         ?????         |     ?????     |     ?????     |
 
 The prediction on an image is :
 
-![Alt text](/results.png?raw=true "Dataset image / Corresponding Groundtruth")
+![Alt text](/prediction.png?raw=true "Image and Predcition")
 ## Authors - LAS MACINAS
 
-- Constance Gontier [@consti](https://github.com/consti)
+- Constance Gontier [@consti_g](https://github.com/consti_g)
 - Gianna Crovetto [@crovetto](https://github.com/crovetto)
 - Hendrik Hilsberg [@hhilsber](https://github.com/hhilsber)
