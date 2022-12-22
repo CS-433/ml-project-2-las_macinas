@@ -69,7 +69,7 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
-| Unet      |        0.94         |         ?????         |     ?????     |     ?????     |
+| U-Net     |        0.94         |         ?????         |     0.899     |     0.945     |
 
 The prediction on an image is :
 
