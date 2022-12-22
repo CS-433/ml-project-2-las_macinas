@@ -24,14 +24,10 @@ To train and run the model to have predictions:
 
 <pre>
 .  
-├── data                    # Dataset for training/ testing the model 
-├── models
-│    └── best_models 
-├── submission
-│    └── submission 
+├── data                    # Dataset for training/ testing the model  
 ├── report                  # Report of the project  
 ├── src                     # Source files
-│    └── helpers            # Helpers for the implementation of the code  
+│    └── submissions        # Folder containing the prediction
 │    └── models             # Savestate of the best models  
 ├── run                     # Run the model : training and testing
 └── README.md  
@@ -69,7 +65,7 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
-| U-Net     |        0.94         |         ?????         |     0.899     |     0.945     |
+| U-Net     |        0.94         |         -----         |     0.899     |     0.945     |
 
 The prediction on an image is :
 
